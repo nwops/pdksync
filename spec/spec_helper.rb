@@ -1,4 +1,5 @@
 require 'rspec'
+require 'aasm/rspec'
 
 # Set environment variable if it does not exist
 unless ENV['GITHUB_TOKEN']
